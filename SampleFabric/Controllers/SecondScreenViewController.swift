@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import Crashlytics
 
 class SecondScreenViewController: TableViewControllerAnalytics {
-
+    override func viewDidAppear(_ animated: Bool) {
+        Crashlytics.sharedInstance().crash()
+    }
 }
 

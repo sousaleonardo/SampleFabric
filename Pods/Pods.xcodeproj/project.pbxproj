@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,22 +14,27 @@
 
 /* Begin PBXFileReference section */
 		054077AD96F8938E2488915B15512279 /* Pods-SampleFabric-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleFabric-acknowledgements.plist"; sourceTree = "<group>"; };
-		37B1A728AB7E48A47F2309B40F77F654 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
-		429ABAE932869D82F8EA325434133D4F /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		200C81134ACADBF4B01AF7F1C51DE9EC /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		29DE526E5B1D3B37719460B12B391B91 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
 		484195F9597F601D12FB0FCFFD183101 /* Pods-SampleFabric-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleFabric-frameworks.sh"; sourceTree = "<group>"; };
+		494C290BDBEAED23BA5743A3CE2FA0D1 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
 		516818D39748745F16786D0DEFEFBCEF /* Pods-SampleFabric-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleFabric-dummy.m"; sourceTree = "<group>"; };
-		5269DE768B85B673ADC07A9C8F1079CF /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Answers.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		5B0AC4555A08701A9F1760172610E0AF /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
 		644E907CFF0A667DDA0168BF0186D7BE /* Pods-SampleFabric.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleFabric.release.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7453434A606C4B30973D9F40AE637C89 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Answers.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
-		8B505B3DC5B7431F0AB6FE5E267A8E8D /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB9789FB286681654253B156EC0A85ED /* Pods_SampleFabric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleFabric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82981FB005A4ED4C556297735FD4ACED /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		856A7EF81F93DD33C78FA7140067110C /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		8DB331D62E03B90D571016097AB0A7E0 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		92972CC1C216B42A9AB4B6EABB27FC16 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A61E08527EFC3DBEDD4BFA0B5C45104C /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		BB9789FB286681654253B156EC0A85ED /* Pods_SampleFabric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleFabric.framework; path = "Pods-SampleFabric.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C224D194C6C7FD673AA7A8B793BC0362 /* Pods-SampleFabric-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleFabric-resources.sh"; sourceTree = "<group>"; };
 		CA06FA6E8C4EDBEE9E21E2952C8DFD25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE3E3AC848C72DA9688E3D6D5D32830B /* Answers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Answers.framework; path = iOS/Answers.framework; sourceTree = "<group>"; };
 		D41685F04146C4882ADCCFC4933499B1 /* Pods-SampleFabric.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleFabric.debug.xcconfig"; sourceTree = "<group>"; };
 		D871A4550883877CE2A81927F994A27D /* Pods-SampleFabric-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleFabric-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBA48C54AB315A7317F3DD387EF04883 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
+		EAC88243AB9F702F3015F7068842116A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
 		F382B422D7B4C413362F5E8AE2936D13 /* Pods-SampleFabric-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleFabric-umbrella.h"; sourceTree = "<group>"; };
 		F5277F4143D857D3BA94694488967222 /* Pods-SampleFabric.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SampleFabric.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,12 +51,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0642C2507F32A8F6D80A49F931BE5647 /* Frameworks */ = {
+		1DECF7299F0875E9BCB9492390207331 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CE3E3AC848C72DA9688E3D6D5D32830B /* Answers.framework */,
+				26F9D6AB1F30C869A5F58AF8EF5A99C8 /* Crashlytics */,
+				D479A0301687E2A8F6F67D392B8551D2 /* Fabric */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		1F0A299446F2E54479022307BB021116 /* Pods-SampleFabric */ = {
@@ -72,14 +78,28 @@
 			path = "Target Support Files/Pods-SampleFabric";
 			sourceTree = "<group>";
 		};
-		7A1C6261650101678D66DD379DF3F396 /* Answers */ = {
+		26F9D6AB1F30C869A5F58AF8EF5A99C8 /* Crashlytics */ = {
 			isa = PBXGroup;
 			children = (
-				7453434A606C4B30973D9F40AE637C89 /* ANSCompatibility.h */,
-				5269DE768B85B673ADC07A9C8F1079CF /* Answers.h */,
-				0642C2507F32A8F6D80A49F931BE5647 /* Frameworks */,
+				5B0AC4555A08701A9F1760172610E0AF /* ANSCompatibility.h */,
+				A61E08527EFC3DBEDD4BFA0B5C45104C /* Answers.h */,
+				8DB331D62E03B90D571016097AB0A7E0 /* CLSAttributes.h */,
+				29DE526E5B1D3B37719460B12B391B91 /* CLSLogging.h */,
+				856A7EF81F93DD33C78FA7140067110C /* CLSReport.h */,
+				DBA48C54AB315A7317F3DD387EF04883 /* CLSStackFrame.h */,
+				200C81134ACADBF4B01AF7F1C51DE9EC /* Crashlytics.h */,
+				E268B07786115FF5D5DFF396150E695F /* Frameworks */,
 			);
-			path = Answers;
+			name = Crashlytics;
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		2DDA681774534EB985F60A3418A4C908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92972CC1C216B42A9AB4B6EABB27FC16 /* Fabric.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -87,19 +107,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8328775D7F1B163F3AC26345CBE75FC0 /* Pods */,
+				1DECF7299F0875E9BCB9492390207331 /* Pods */,
 				853931BB0A10B58BC0D9F402A790E5D8 /* Products */,
 				B44DBBFE86BD98517A43EE5D31949999 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8328775D7F1B163F3AC26345CBE75FC0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7A1C6261650101678D66DD379DF3F396 /* Answers */,
-				D4F410E6E70C74D6B9B386E201F41418 /* Fabric */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		853931BB0A10B58BC0D9F402A790E5D8 /* Products */ = {
@@ -134,20 +145,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D4F410E6E70C74D6B9B386E201F41418 /* Fabric */ = {
+		D479A0301687E2A8F6F67D392B8551D2 /* Fabric */ = {
 			isa = PBXGroup;
 			children = (
-				37B1A728AB7E48A47F2309B40F77F654 /* FABAttributes.h */,
-				429ABAE932869D82F8EA325434133D4F /* Fabric.h */,
-				F3DB3F4E6D203E5E08B46254F576C580 /* Frameworks */,
+				494C290BDBEAED23BA5743A3CE2FA0D1 /* FABAttributes.h */,
+				82981FB005A4ED4C556297735FD4ACED /* Fabric.h */,
+				2DDA681774534EB985F60A3418A4C908 /* Frameworks */,
 			);
+			name = Fabric;
 			path = Fabric;
 			sourceTree = "<group>";
 		};
-		F3DB3F4E6D203E5E08B46254F576C580 /* Frameworks */ = {
+		E268B07786115FF5D5DFF396150E695F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B505B3DC5B7431F0AB6FE5E267A8E8D /* Fabric.framework */,
+				EAC88243AB9F702F3015F7068842116A /* Crashlytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,7 +185,6 @@
 				7BF5EFC7B01807A9A04342CBCD8E627F /* Sources */,
 				A23F4651C2B1817AA44D36A213921A31 /* Frameworks */,
 				BF059FDF42726352D4EFF93409E2CCC8 /* Headers */,
-				FA1CB6C320571B6E003609E7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -209,22 +220,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		FA1CB6C320571B6E003609E7 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 0cba3138115f095287c9d7e891acde988a49c79e 9b91a85b49b226b0532bdf502dcba269694e20831ea63307ad4b9355dd1d7fb8";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7BF5EFC7B01807A9A04342CBCD8E627F /* Sources */ = {

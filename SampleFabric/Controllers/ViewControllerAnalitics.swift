@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Answers
+import Crashlytics
 
 class ViewControllerAnalytics: UIViewController {
 
