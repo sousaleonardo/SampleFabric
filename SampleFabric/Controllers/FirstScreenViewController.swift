@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Answers
 
 class FirstScreenViewController: ViewControllerAnalytics {
 
@@ -21,8 +22,8 @@ class FirstScreenViewController: ViewControllerAnalytics {
     @IBAction func clicketButton(_ sender: UIButton) {
         guard let buttonTitle = sender.titleLabel?.text,
             let title = self.title else {
-            
             return
         }
+        Answers.logCustomEvent(withName: "Button pressed " + buttonTitle, customAttributes: ["Screen Title": title])
     }
 }
