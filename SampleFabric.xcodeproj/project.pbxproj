@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D410464CA5625CFAADCE9EDD /* libPods-SampleAppCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE50D8B6427BA6EB83A9BAA /* libPods-SampleAppCenter.a */; };
+		72ABC7A47135D2125A16E552 /* Pods_SampleFabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D982FA8D21A08562825B552 /* Pods_SampleFabric.framework */; };
 		FA491FBD2056B3CD00BA139F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA491FBC2056B3CD00BA139F /* AppDelegate.swift */; };
 		FA491FC22056B3CD00BA139F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA491FC02056B3CD00BA139F /* Main.storyboard */; };
 		FA491FC42056B3CD00BA139F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA491FC32056B3CD00BA139F /* Assets.xcassets */; };
@@ -20,7 +20,9 @@
 
 /* Begin PBXFileReference section */
 		4BE50D8B6427BA6EB83A9BAA /* libPods-SampleAppCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleAppCenter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F16EE6E48663E11E52C18D4 /* Pods-SampleAppCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppCenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAppCenter/Pods-SampleAppCenter.debug.xcconfig"; sourceTree = "<group>"; };
+		57742CE1B4355A7FC9A4F4C2 /* Pods-SampleFabric.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleFabric.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleFabric/Pods-SampleFabric.debug.xcconfig"; sourceTree = "<group>"; };
+		5D982FA8D21A08562825B552 /* Pods_SampleFabric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleFabric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CFC328C61BBEE8980ABD02 /* Pods-SampleFabric.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleFabric.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleFabric/Pods-SampleFabric.release.xcconfig"; sourceTree = "<group>"; };
 		FA491FB92056B3CC00BA139F /* SampleFabric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleFabric.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA491FBC2056B3CD00BA139F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA491FC12056B3CD00BA139F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,7 +33,6 @@
 		FAD8246A2056EBEE00CE0DD3 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
 		FAD8246C2056EC1700CE0DD3 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
 		FAD824702056EF9000CE0DD3 /* TableViewControllerAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerAnalytics.swift; sourceTree = "<group>"; };
-		FBD5F5E2CFEE94E40CCC5708 /* Pods-SampleAppCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppCenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAppCenter/Pods-SampleAppCenter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D410464CA5625CFAADCE9EDD /* libPods-SampleAppCenter.a in Frameworks */,
+				72ABC7A47135D2125A16E552 /* Pods_SampleFabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,8 +50,8 @@
 		3B5C0DD7EBAFF7DF71FF3581 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6F16EE6E48663E11E52C18D4 /* Pods-SampleAppCenter.debug.xcconfig */,
-				FBD5F5E2CFEE94E40CCC5708 /* Pods-SampleAppCenter.release.xcconfig */,
+				57742CE1B4355A7FC9A4F4C2 /* Pods-SampleFabric.debug.xcconfig */,
+				82CFC328C61BBEE8980ABD02 /* Pods-SampleFabric.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -59,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				4BE50D8B6427BA6EB83A9BAA /* libPods-SampleAppCenter.a */,
+				5D982FA8D21A08562825B552 /* Pods_SampleFabric.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -142,6 +144,7 @@
 				FA491FB72056B3CC00BA139F /* Resources */,
 				4866F013D05326AF08AC7938 /* [CP] Embed Pods Frameworks */,
 				D59018E6998977C21420D71D /* [CP] Copy Pods Resources */,
+				FA1CB6C420571C94003609E7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -212,7 +215,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleAppCenter/Pods-SampleAppCenter-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleFabric/Pods-SampleFabric-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		586C537C26901889C414E82D /* [CP] Check Pods Manifest.lock */ = {
@@ -226,7 +229,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SampleAppCenter-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SampleFabric-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -245,8 +248,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleAppCenter/Pods-SampleAppCenter-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleFabric/Pods-SampleFabric-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		FA1CB6C420571C94003609E7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 0cba3138115f095287c9d7e891acde988a49c79e 9b91a85b49b226b0532bdf502dcba269694e20831ea63307ad4b9355dd1d7fb8";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -394,14 +410,14 @@
 		};
 		FA491FCC2056B3CD00BA139F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F16EE6E48663E11E52C18D4 /* Pods-SampleAppCenter.debug.xcconfig */;
+			baseConfigurationReference = 57742CE1B4355A7FC9A4F4C2 /* Pods-SampleFabric.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M25JU54534;
 				INFOPLIST_FILE = "SampleFabric/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.sousaLeonardo.SampleAppCenter;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.sousaLeonardo.SampleFabric;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -410,14 +426,14 @@
 		};
 		FA491FCD2056B3CD00BA139F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBD5F5E2CFEE94E40CCC5708 /* Pods-SampleAppCenter.release.xcconfig */;
+			baseConfigurationReference = 82CFC328C61BBEE8980ABD02 /* Pods-SampleFabric.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M25JU54534;
 				INFOPLIST_FILE = "SampleFabric/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.sousaLeonardo.SampleAppCenter;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.sousaLeonardo.SampleFabric;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
