@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import AppCenterCrashes
+import Crashlytics
 
 class SecondScreenViewController: ViewControllerAnalytics {
     var viewItens = [MockItem]()

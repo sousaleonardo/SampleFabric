@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import Crashlytics
 
 class PhotoViewController: ViewControllerAnalytics {
     @IBOutlet weak var imgUserPhoto: UIImageView!
     
     var mockUser: MockItem?
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        Crashlytics.sharedInstance().setIntValue(42, forKey: "MeaningOfLife")
+    }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         

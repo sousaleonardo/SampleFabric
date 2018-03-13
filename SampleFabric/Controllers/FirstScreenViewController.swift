@@ -24,6 +24,6 @@ class FirstScreenViewController: ViewControllerAnalytics {
             let title = self.title else {
             return
         }
-        Answers.logCustomEvent(withName: "Button pressed " + buttonTitle, customAttributes: ["Screen Title": title])
+        Answers.logCustomEvent(withName: "Button pressed!", customAttributes: ["Screen Title": title, "Button": buttonTitle])
     }
 }
