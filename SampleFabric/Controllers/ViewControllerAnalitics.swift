@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Crashlytics
+import AppCenterAnalytics
 
 class ViewControllerAnalytics: UIViewController {
 
@@ -15,7 +15,7 @@ class ViewControllerAnalytics: UIViewController {
         super.viewWillAppear(animated)
         
         if let title = self.title {
-            Answers.logCustomEvent(withName: "Will show screen " + title, customAttributes: nil)
+            MSAnalytics.trackEvent("Will show screen " + title)
         }
     }
 }

@@ -16,6 +16,9 @@
 		FAD8246B2056EBEE00CE0DD3 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8246A2056EBEE00CE0DD3 /* FirstScreenViewController.swift */; };
 		FAD8246D2056EC1700CE0DD3 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8246C2056EC1700CE0DD3 /* SecondScreenViewController.swift */; };
 		FAD824712056EF9000CE0DD3 /* TableViewControllerAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD824702056EF9000CE0DD3 /* TableViewControllerAnalytics.swift */; };
+		FAFB704020583FA600A8B602 /* MockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB703F20583FA600A8B602 /* MockTableViewCell.swift */; };
+		FAFB704220583FAE00A8B602 /* MockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB704120583FAE00A8B602 /* MockItem.swift */; };
+		FAFB70442058401600A8B602 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB70432058401600A8B602 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		FAD8246A2056EBEE00CE0DD3 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
 		FAD8246C2056EC1700CE0DD3 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
 		FAD824702056EF9000CE0DD3 /* TableViewControllerAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerAnalytics.swift; sourceTree = "<group>"; };
+		FAFB703F20583FA600A8B602 /* MockTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockTableViewCell.swift; sourceTree = "<group>"; };
+		FAFB704120583FAE00A8B602 /* MockItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockItem.swift; sourceTree = "<group>"; };
+		FAFB70432058401600A8B602 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +92,8 @@
 		FA491FBB2056B3CC00BA139F /* SampleFabric */ = {
 			isa = PBXGroup;
 			children = (
-				FAD824622056E65A00CE0DD3 /* Models */,
-				FAD824632056E66600CE0DD3 /* Views */,
+				FAFB703C20583F7C00A8B602 /* Views */,
+				FAFB703B20583F6700A8B602 /* Models */,
 				FAD824642056E67700CE0DD3 /* Controllers */,
 				FAD824612056E62100CE0DD3 /* Supporting Files */,
 			);
@@ -106,20 +112,6 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FAD824622056E65A00CE0DD3 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		FAD824632056E66600CE0DD3 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		FAD824642056E67700CE0DD3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,8 +119,25 @@
 				FAD824702056EF9000CE0DD3 /* TableViewControllerAnalytics.swift */,
 				FAD8246A2056EBEE00CE0DD3 /* FirstScreenViewController.swift */,
 				FAD8246C2056EC1700CE0DD3 /* SecondScreenViewController.swift */,
+				FAFB70432058401600A8B602 /* PhotoViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FAFB703B20583F6700A8B602 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB704120583FAE00A8B602 /* MockItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAFB703C20583F7C00A8B602 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB703F20583FA600A8B602 /* MockTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,9 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFB704020583FA600A8B602 /* MockTableViewCell.swift in Sources */,
+				FAFB704220583FAE00A8B602 /* MockItem.swift in Sources */,
 				FAD8246D2056EC1700CE0DD3 /* SecondScreenViewController.swift in Sources */,
 				FA491FBD2056B3CD00BA139F /* AppDelegate.swift in Sources */,
 				FAD8246B2056EBEE00CE0DD3 /* FirstScreenViewController.swift in Sources */,
+				FAFB70442058401600A8B602 /* PhotoViewController.swift in Sources */,
 				FAD824712056EF9000CE0DD3 /* TableViewControllerAnalytics.swift in Sources */,
 				FAD824692056EA6100CE0DD3 /* ViewControllerAnalitics.swift in Sources */,
 			);
