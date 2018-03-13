@@ -16,8 +16,6 @@ class PhotoViewController: ViewControllerAnalytics {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        Crashlytics.sharedInstance().setIntValue(42, forKey: "MeaningOfLife")
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

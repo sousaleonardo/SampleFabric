@@ -31,11 +31,15 @@ extension SecondScreenViewController: UITableViewDelegate {
             let birthDateAlert = UIAlertController(title: "Data de Nascimento", message: "\(self.viewItens[indexPath.row].birthDate!)", preferredStyle: .alert)
             birthDateAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             
+            Crashlytics.sharedInstance().setIntValue(42, forKey: "MeaningOfLife")
+            
             self.present(birthDateAlert, animated: true, completion: nil)
         }))
         
         self.present(alertView, animated: true) {
             if (indexPath.row == 2) {
+                Crashlytics.sharedInstance().setIntValue(100, forKey: "MeaningOfLife")
+                
                 let testVar = self.viewItens[0].birthDate!
                 print(testVar)
             }

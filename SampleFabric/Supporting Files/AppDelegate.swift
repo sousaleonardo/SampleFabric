@@ -17,7 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         Fabric.with([Answers.self, Crashlytics.self])
-
+        Crashlytics.sharedInstance().setUserName("sousaLeonardo")
+        Crashlytics.sharedInstance().setUserEmail("sousaLeonardo@sousa.com")
+        
         return true
     }
 
